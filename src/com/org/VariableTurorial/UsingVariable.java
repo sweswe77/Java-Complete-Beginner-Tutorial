@@ -1,3 +1,4 @@
+package com.org.VariableTurorial;
 
 public class UsingVariable {
 
