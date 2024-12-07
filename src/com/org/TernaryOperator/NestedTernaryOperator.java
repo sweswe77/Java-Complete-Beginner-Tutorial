@@ -6,13 +6,13 @@ public class NestedTernaryOperator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a subject'score: ");
-		int score=sc.nextInt();
 		
-		String result="";
-		result= (score>50)? (score>=65)? (score>=80)? "D" : "C" :"Pass" : "Fail";
-		System.out.println(result);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your mark: ");
+		int mark=sc.nextInt();
+		// 35, 40, 50, 65, 89,90,75
+		String result= (mark>50)? ((mark>65)? ((mark>80)? ("D"): ("C")): ("Pass")) : ("Faile");
+		System.out.println("Result: "+ result);
 
 	}
 
